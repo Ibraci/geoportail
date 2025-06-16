@@ -37,13 +37,14 @@ This project uses the following dependencies (see `pubspec.yaml` for details):
    flutter run
    ```
 
-## Resources
+## Contribution
 
-A few resources to get you started if this is your first Flutter project:
+Contributions are welcome! To contribute to this project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes and commit them with clear messages.
+4. Push your branch to your forked repository.
+5. Open a pull request describing your changes.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Please ensure your code follows the project's style guidelines and includes appropriate tests and documentation.

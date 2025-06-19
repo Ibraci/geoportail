@@ -8,10 +8,10 @@ class MapPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Leaflet Map Example')),
+      appBar: AppBar(title: const Text('Carte Geoportail')),
       body: FlutterMap(
         options: MapOptions(
-          initialCenter: LatLng(-16.5, -68.15), // Example: La Paz, Bolivia
+          initialCenter: LatLng(12.63, -8.02), // Example: La Paz, Bolivia
           initialZoom: 13.0,
         ),
         children: [
@@ -25,7 +25,7 @@ class MapPage extends StatelessWidget {
               Marker(
                 width: 40.0,
                 height: 40.0,
-                point: LatLng(-16.5, -68.15),
+                point: LatLng(12.63, -8.02),
                 child: const Icon(
                   Icons.location_pin,
                   color: Colors.red,

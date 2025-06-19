@@ -106,24 +106,6 @@ class _HomePageState extends State<HomePage> {
         },
         selectedIndex: currentIndex, // Set the initial selected index
       ),
-      floatingActionButton: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          FloatingActionButton(
-            onPressed: () {
-              print('Zoom in');
-            },
-            child: Icon(Icons.add),
-          ),
-          SizedBox(height: 10), // Add some space between the buttons
-          FloatingActionButton(
-            onPressed: () {
-              print('Zoom out');
-            },
-            child: Icon(Icons.remove),
-          ),
-        ],
-      ),
     );
   }
 }

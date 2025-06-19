@@ -19,7 +19,7 @@ class HomeContent extends StatelessWidget {
             ),
             SizedBox(height: 8),
             Text(
-              'Explorez les cartes, les données régionales, et les ressources.',
+              'Explorez les cartes, les données régionales et les ressources.',
               style: TextStyle(fontSize: 16, color: Colors.black54),
             ),
             SizedBox(height: 24),
@@ -49,6 +49,8 @@ class HomeContent extends StatelessWidget {
 
 // This widget shows the grid of quick access tiles.
 class HomeTileGrid extends StatelessWidget {
+  const HomeTileGrid({super.key});
+
   @override
   Widget build(BuildContext context) {
     // List of tiles to show
@@ -77,7 +79,7 @@ class HomeTile extends StatelessWidget {
   final IconData icon;
   final String label;
 
-  const HomeTile({required this.icon, required this.label});
+  const HomeTile({super.key, required this.icon, required this.label});
 
   @override
   Widget build(BuildContext context) {
@@ -110,7 +112,7 @@ class NewsCard extends StatelessWidget {
   final String title;
   final String date;
 
-  const NewsCard({required this.title, required this.date});
+  const NewsCard({super.key, required this.title, required this.date});
 
   @override
   Widget build(BuildContext context) {
